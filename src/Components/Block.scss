@@ -1,0 +1,21 @@
+.blockBody {
+  position: absolute;
+  text-align: left;
+  // overflow: hidden;
+}
+
+.widthText {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.heightText {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.clearance {
+  position: absolute;
+}
